@@ -12,9 +12,9 @@ begin
   readln(num2);
   
   write('Введите знак (+, -, *, /): ');
-  readln(op);
+  readln(x);
   
-  case op of
+  case x of
     '+': result := num1 + num2;
     '-': result := num1 - num2;
     '*': result := num1 * num2;
